@@ -8,11 +8,11 @@
 + 作業
 # :closed_book:課堂筆記
 + 課堂ppt  
-    +  [week1](https://moodle3.ntnu.edu.tw/pluginfile.php/906101/mod_resource/content/1/1_16%20%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80.pdf)
+    +  [week1](https://docs.google.com/presentation/d/1XHngMihySFJdtavwBlt0JdG-9lrJmFY4-YDZOrP1eQU/edit#slide=id.p)
     +  [week2](https://moodle3.ntnu.edu.tw/pluginfile.php/906102/mod_resource/content/1/2_16%20%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80.pdf)
    
 
 + 參考資料
-    
+    +  [🤗 Transformers](https://huggingface.co/docs/transformers/installation)
 + 補充資料
     
