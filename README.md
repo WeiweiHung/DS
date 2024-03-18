@@ -9,7 +9,9 @@
 # :closed_book:課堂筆記
 + 課堂ppt  
     +  [week1](https://docs.google.com/presentation/d/1XHngMihySFJdtavwBlt0JdG-9lrJmFY4-YDZOrP1eQU/edit#slide=id.p)
-    +  [week2](https://moodle3.ntnu.edu.tw/pluginfile.php/906102/mod_resource/content/1/2_16%20%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80.pdf)
+    +  [week2](https://docs.google.com/presentation/d/1wX0zNiCGibklyF9yY145saurS7IyRvZY9_JwT1LnBas/edit#slide=id.p)
+    +  [week3](https://docs.google.com/presentation/d/1E356joF2_dOmema7ki1Fh5rJ2l87XD-QU7xwpk_cbTY/edit#slide=id.p)
+    +  [week4](https://docs.google.com/presentation/d/1vwAhugIA8sGYY335p7dOT2ksgsXzp9ofk44BS7vOpy4/edit#slide=id.p)
    
 
 + 參考資料
