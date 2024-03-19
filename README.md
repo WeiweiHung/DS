@@ -16,5 +16,8 @@
     +  [week4:stack](https://github.com/WeiweiHung/DS/blob/main/week4_practice.ipynb)
 + 參考資料
     +  [🤗 Transformers](https://huggingface.co/docs/transformers/installation)
+    +  [python語法(中文)](https://www.runoob.com/python/python-tutorial.html)
+    +  [認識資料結構](https://hackmd.io/@howkii-studio/apcs_overview/https%3A%2F%2Fhackmd.io%2F%40howkii-studio%2Fdata_structure#%E8%AA%8D%E8%AD%98%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B)
+    +  [資料結構在python](https://docs.python.org/zh-tw/3/tutorial/datastructures.html#using-lists-as-stacks)
 + 補充資料
     
