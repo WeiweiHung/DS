@@ -8,6 +8,7 @@
 + 作業
 + 小練習
     +  [week4:stack](https://github.com/WeiweiHung/DS/blob/main/week4_practice.ipynb)
+    +  [week5+6:LangChain + HuggingFace's Inference API](
 # :closed_book:課堂筆記
 + 課堂ppt  
     +  [week1](https://docs.google.com/presentation/d/1XHngMihySFJdtavwBlt0JdG-9lrJmFY4-YDZOrP1eQU/edit#slide=id.p)
