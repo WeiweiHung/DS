@@ -8,12 +8,14 @@
 + 作業
 + 小練習
     +  [week4:stack](https://github.com/WeiweiHung/DS/blob/main/week4_practice.ipynb)
+    +  [week5+6:LangChain + HuggingFace's Inference API](https://github.com/WeiweiHung/DS/blob/main/class0326L%2BH.py)
 # :closed_book:課堂筆記
 + 課堂ppt  
     +  [week1](https://docs.google.com/presentation/d/1XHngMihySFJdtavwBlt0JdG-9lrJmFY4-YDZOrP1eQU/edit#slide=id.p)
     +  [week2](https://docs.google.com/presentation/d/1wX0zNiCGibklyF9yY145saurS7IyRvZY9_JwT1LnBas/edit#slide=id.p)
     +  [week3](https://docs.google.com/presentation/d/1E356joF2_dOmema7ki1Fh5rJ2l87XD-QU7xwpk_cbTY/edit#slide=id.p)
     +  [week4](https://docs.google.com/presentation/d/1vwAhugIA8sGYY335p7dOT2ksgsXzp9ofk44BS7vOpy4/edit#slide=id.p)
+    +  [數位孿生專案設計討論](https://hackmd.io/@yillkid/H1gWjpwR6/https%3A%2F%2Fhackmd.io%2F%40yillkid%2FSy8AipPA6)
 
 + 參考資料
     +  [🤗 Transformers](https://huggingface.co/docs/transformers/installation)
