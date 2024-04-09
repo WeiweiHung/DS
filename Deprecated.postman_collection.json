@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "2f5b126f-8eed-46c8-ba1b-511ac9bb8f24",
+		"name": "Deprecated",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34141235",
+		"_collection_link": "https://www.postman.com/town-intelligent/workspace/llmtwins/collection/14774309-2f5b126f-8eed-46c8-ba1b-511ac9bb8f24?action=share&source=collection_link&creator=34141235"
+	},
+	"item": [
+		{
+			"name": "Prompt Digital Twins (deprecated)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"role\":\"小鎮賦能\",\n    \"message\": \"請幫我計算高鐵通勤 100 公里的碳足跡\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/prompt_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"prompt_llm_twins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prompt (無法識別的案例) (deprecated)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"role\":\"小鎮賦能\",\n    \"message\": \"今天天氣好嗎？\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/prompt_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"prompt_llm_twins"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

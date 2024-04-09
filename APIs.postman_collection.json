@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "4fda69ab-f07f-488f-bd0d-181b09fff473",
+		"name": "APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34141235",
+		"_collection_link": "https://www.postman.com/town-intelligent/workspace/llmtwins/collection/14774309-4fda69ab-f07f-488f-bd0d-181b09fff473?action=share&source=collection_link&creator=34141235"
+	},
+	"item": [
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint_local}}/health",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Digital Twins",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"小鎮賦能7\",\n    \"description\": \"你是一名 ESG 管理師\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/register_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"register_llm_twins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Digital Twins",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"小鎮賦能7\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/get_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"get_llm_twins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Digital Twins API table",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"小鎮賦能7\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/get_llm_twins_api",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"get_llm_twins_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Digital Twins",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"科技城管家\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/delete_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"delete_llm_twins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Digital Twins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint_local}}/list_llm_twins",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"list_llm_twins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Intent recognition",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"role\":\"小鎮賦能\",\n    \"message\": \"請幫我計算高鐵通勤 100 公里的碳足跡？\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/intent_recognition",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"intent_recognition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Callbacks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"role\":\"小鎮賦能\",\n    \"message\": \"calculate_high_speed_rail_carbon_footprint\"\n}"
+				},
+				"url": {
+					"raw": "{{endpoint_local}}/callbacks",
+					"host": [
+						"{{endpoint_local}}"
+					],
+					"path": [
+						"callbacks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
