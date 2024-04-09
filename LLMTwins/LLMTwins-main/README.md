@@ -27,8 +27,8 @@ pip3 install -r requirements.txt
 
 ## Run
 ```bash=
-source env/bin/activate
-uvicorn server:app --host 0.0.0.0 --port 8000 --reload
+python -m uvicorn server:app --host 0.0.0.0 --port 8000 --reload
+
 ```
 
 ## Procedure
